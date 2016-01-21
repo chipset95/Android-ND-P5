@@ -136,7 +136,7 @@ public class ArticleDetailFragment extends Fragment implements
                                     @Override
                                     public void onGenerated(Palette palette) {
                                         mMutedColor = palette.getDarkMutedColor(R.color.primary_text);
-                                        mLightColor = palette.getVibrantColor(R.color.ltgray);
+                                        mLightColor = palette.getVibrantColor(R.color.light_gray);
                                         mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                         mRootView.findViewById(R.id.meta_bar)
                                                 .setBackgroundColor(mMutedColor);
